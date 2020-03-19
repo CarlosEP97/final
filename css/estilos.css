@@ -1,0 +1,335 @@
+body,html{
+
+  font-family: 'Arsenal', sans-serif;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+
+  font-family: 'Anton', sans-serif;
+  font-weight: normal;
+  /* font-style: italic; */
+}
+
+h1{
+  font-size: 40px;
+  line-height: 1.5em;
+  letter-spacing: -.2px;
+  color: white;
+  /* text-transform: uppercase */
+  /* text-decoration:none */
+}
+
+h1 strong {
+  color: #E47309;
+}
+
+h2 {color: white}
+
+.hero {
+  position: relative;
+  background-image: url('../image/hero.jpg');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.figth{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/goku2.jpg');
+
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+
+
+
+}
+
+.figth h2 {
+
+  margin: 0;
+  font-size: 60px;
+
+}
+
+.figth p {
+
+font-size: 24px;
+color: #5E5E5F;
+color: white;
+background: rgba(0, 0, 0, 0.5);
+width: 30%;
+margin-left:10px;
+
+
+}
+
+.figth h2,p {
+
+position: relative;
+padding: 40px 10px;
+
+}
+
+
+
+.container {
+  background-color: black;
+}
+
+.row h3 {
+
+  color: white;
+  font-size: 55px;
+  border-top: 10px;
+  vertical-align: middle;
+
+}
+
+.row p {
+  color: #5E5E5F;
+  font-size: 24px;
+  border: 0;
+
+}
+
+
+
+.header{
+
+  position:absolute;
+  background-color: transparent;
+  color: white;
+  z-index: 9999;
+  width: 100%;
+
+
+}
+
+.header figure{
+  display: flex;
+  float:left;
+
+}
+ .header a {
+   color: white;
+   text-decoration: none;
+   align-items: center;
+
+ }
+ .header nav{
+   float: right;
+ }
+ .header li{
+   display:inline;
+   padding:20px 55px;
+
+ }
+
+ .header ul li {
+
+   align-items:center;
+
+ }
+
+
+ .event{
+background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/capsule.jpg');
+display: flex;
+
+background-repeat: no-repeat;
+width: 100%;
+height: 100%;
+
+}
+
+.event2{
+ display: flex;
+justify-content: center;
+background-color: black;
+height: 70%;
+
+}
+
+
+.game {
+
+  box-sizing: border-box;
+  margin:5px;
+  width: 362px;
+  height: 490px;
+  background-color: grey;
+
+}
+
+
+.game img {
+
+  width: 100%;
+  height: 50%;
+  margin: auto;
+
+
+}
+
+
+.game-detail {
+
+background-color: #313131;
+margin-top: -20px;
+position: relative;
+padding: 24px 32px 32px;
+height: 225px;
+
+
+
+}
+
+.game h1{
+  color: #F3B229;
+  font-size: 26px;
+}
+
+.game p , a {
+  color: white;
+  font-size: 20px;
+}
+
+.game-descripcion {
+  margin-top: 8px;
+  padding: 0;
+}
+
+
+
+.game-url {
+  border: 1px solid #F5BE4B;
+  padding:5px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+
+
+.contact {
+margin: 0;
+height: 296px;
+display: flex;
+background: #1c1c1c;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.contain {
+  display: flex;
+  box-sizing: border-box;
+  margin:5px;
+  width: 362px;
+  height: 184px;
+}
+
+.contain1 {
+  display: flex;
+  box-sizing: border-box;
+  margin:5px;
+  width: 362px;
+  height: 184px;
+}
+
+
+.games{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contain h1 {
+  margin:0;
+  color: #f3b229;
+}
+
+.contain a {
+  text-decoration: none;
+}
+
+.contain1 h1 {
+  margin:0;
+  color: #e3672a;
+}
+
+.contain1 a {
+  text-decoration: none;
+}
+
+.social {
+
+}
+
+.social-link{
+  width: 50px;
+  height: 50px;
+
+  display: inline-block;
+  background-size: 50px 50px;
+}
+
+.social-link.instagram {
+  background-image: url('../image/instagram.svg');
+
+}
+
+.social-link.facebook {
+  background-image: url('../image/facebook.svg');
+
+}
+
+.social-link.twitter {
+  background-image: url('../image/twitter.svg');
+
+}
+
+.social-link.youtube {
+  background-image: url('../image/youtube.svg');
+
+}
+
+
+
+.footer{
+   background-color: black;
+   color: white;
+   display: flex;
+   align-items: center;
+
+/* align-items: center; */
+ }
+
+ .footer p{
+   color: white
+ }
+
+ .footerimg img{
+   float: left;
+   width: 173px;
+   height: 48px;
+   vertical-align: middle;
+
+ }
